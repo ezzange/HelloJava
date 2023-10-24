@@ -1,4 +1,4 @@
-package classss.ex3;
+package classss.ex4;
 
 public class Card {
     String kind;

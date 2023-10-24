@@ -1,4 +1,4 @@
-package 상속inheritance.ex3;
+package inheritance.ex3;
 
 public class Display {
 

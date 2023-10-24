@@ -1,2 +1,6 @@
-package inheritance.ex4;public class MyPoint {
+package inheritance.ex4;
+
+class MyPoint {
+    int x;
+    int y;
 }

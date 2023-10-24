@@ -1,14 +1,14 @@
-package inheritance.ex6;
+package inheritance.ex7;
 
-class const extends Object{
+class ConstructorTest extends Object{
     int x;
     int y;
 
-    AnotherPoint() {
+    ConstructorTest() {
         this(0, 0);
     }
 
-    AnotherPoint(int x, int y) {
+    ConstructorTest(int x, int y) {
         super();//작성하지 않는다면 컴파일러가 자동 삽입
         this.x = x;
         this.y = y;

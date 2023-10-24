@@ -1,2 +1,6 @@
-package composite.ex1;public class Point {
+package composite.ex1;
+
+class Point {
+    int x;
+    int y;
 }

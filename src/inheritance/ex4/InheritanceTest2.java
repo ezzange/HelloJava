@@ -1,12 +1,7 @@
-package 상속inheritance.ex4;
+package inheritance.ex4;
 
-class MyPoint {
-    int x;
-    int y;
-}
-class MyCircle extends MyPoint {
-    int r;
-}
+
+
 public class InheritanceTest2 {
     public static void main(String[] args) {
 

@@ -1,2 +1,5 @@
-package inheritance.ex4;public class MyCircle {
+package inheritance.ex4;
+
+class MyCircle extends MyPoint {
+    int r;
 }

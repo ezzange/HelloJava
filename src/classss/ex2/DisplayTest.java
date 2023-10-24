@@ -1,4 +1,4 @@
-package classss.ex1;
+package classss.ex2;
 
 import classss.ex1.Display;
 

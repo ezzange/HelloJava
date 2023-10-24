@@ -1,4 +1,4 @@
-package packageeeee; //패키지 선언
+package packageeeee.ex1; //패키지 선언
 
 
 public class PackageTest {

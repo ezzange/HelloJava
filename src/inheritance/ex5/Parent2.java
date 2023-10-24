@@ -1,2 +1,5 @@
-package inheritance.ex5;public class Parent2 {
+package inheritance.ex5;
+
+class Parent2{
+    int x = 10;
 }

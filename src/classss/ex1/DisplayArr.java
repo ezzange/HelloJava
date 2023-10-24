@@ -1,4 +1,6 @@
-package classss;
+package classss.ex1;
+
+import classss.ex1.Display;
 
 public class DisplayArr {
 //    Display displayArr = new Display()[3];

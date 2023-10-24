@@ -1,4 +1,4 @@
-package classss.ex2;
+package classss.ex3;
 
 class Time {
     int hour;
