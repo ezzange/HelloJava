@@ -2,6 +2,7 @@ package callstack.ex2;
 
 
 public class PrimativeParamTest {
+
     public static void main(String[] args) {
         Data d = new Data();
         d.x = 10;
