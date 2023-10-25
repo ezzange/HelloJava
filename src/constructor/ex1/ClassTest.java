@@ -1,4 +1,4 @@
-package Constructor.ex1;
+package constructor.ex1;
 
 public class ClassTest {
     int x;   //iv
