@@ -1,4 +1,4 @@
-package classss.ex5;
+package method.ex1;
 
 public class MyMath {
 

@@ -1,4 +1,4 @@
-package classss.ex5;
+package method.ex1;
 
 public class MethodTest {
     public static void main(String[] args) {

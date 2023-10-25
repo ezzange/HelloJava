@@ -1,4 +1,4 @@
-package packageeeee.ex2;
+package packagee.ex2;
 
 import static java.lang.Math.*;
 import static java.lang.System.out;

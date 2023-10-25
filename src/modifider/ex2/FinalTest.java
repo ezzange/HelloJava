@@ -1,4 +1,4 @@
-package modifider;
+package modifider.ex2;
 
 public final class FinalTest { //부모클래스가 될 수 없는 클래스
     final int MAX_SIZE = 10; //값을 변경할 수 없는 멤버변수(상수)
