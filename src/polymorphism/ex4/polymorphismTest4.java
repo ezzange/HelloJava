@@ -7,6 +7,7 @@ public class polymorphismTest4{
     public static void main(String[] args) {
         Display display = new Display();
         check(display);
+
     }
 
      static void check(Display display) {
