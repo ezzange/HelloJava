@@ -149,5 +149,23 @@ public class StringMethodTest {
         java.util.Date da = new java.util.Date();
         String date = String.valueOf(da);
         System.out.println("date = " + date);
+
+        //    join()
+        String fruit = "apple,banana,Pineapple,apple";
+        String[] strings = fruit.split(",");
+        System.out.println("strings = " + strings);
+        String fruit2 = String.join(",");
+        System.out.println("fruit2 = " + fruit2);
+
+        //숫자를 문자열로 변환
+        int i = 100;
+        String str1 = i+""; // 가독성이 좋다. 속도가 비교적 느리다.
+        String str2 = String.valueOf(i); //속도가 비교적 빠르다. 가독성에 좋지 않다.
+        //문자열을 숫자로 변환
+        i = Integer.parseInt("100");
+        i2 = Integer.valueOf("100");
+        Integer integer = Integer.valueOf("100");
     }
+
+
 }
