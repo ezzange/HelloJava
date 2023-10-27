@@ -1,0 +1,28 @@
+
+ StringBuffer 클래스
+- String 클래스 처럼 문자형 배열(char[])을 내부적으로 가지고 있지만 String과 달리 내용을 변경할  수 있다.
+- 배열은 한 번 생성하면 길이의 변경이 불가능하여 공간이 부족하면 새로운 배열을 생성(1. 새로운 배열 생성 2. 내용 복사 3. 참조변경)한다.
+- StringBuffer는 저장할 문자열의 길이를 고려해서 적절한 크기로 생성할 수 있고 크기를 지정하지 않으면 16이 된다.
+- StringBuffer는 길이를 지정하면 그 길이의 +16되어 생성된다.
+- StringBuffer는 동기화되어 있어 멀티 쓰레드에 안전하다.
+ StringBuffer Method
+ append() : 지정한 내용을 StringBuffer에 추가 후, StringBuffer의(자신) 참조를 반환한다.
+ .
+ .
+ .
+
+
+ StringBuilder
+ -StringBuffer는 멀티 쓰레드 프로그램이 아닌 경우, 동기화는 불필요한 성능 저하를 유발한다.
+  이럴 때 동기화가 되어있지 않은 StringBulier를 사용하면 성능이 향상된다.
+
+ Math 클래스
+- 수학 관련 static메서드의 집합.
+    E : 자연로그의 밑 2.71...
+    PI : 원주율 3.14...
+    rint() : 주어진 double 값에서 가장 가까운 정수 값을 double형으로 반환. (두 정수의 정 가운데 있는 값은 짝수로 반)
+    round() : 원하는 소수점 아래 세 번쨰에서 반올림하여 반환
+    .
+    .
+    .
+ -ex5 | rint(),round()를 사용해보자

@@ -27,3 +27,10 @@
  notify(), notifyAll(), wait(), wait( long timeout ), wait( long timeout, int nanos )
 - 쓰레드에서 자주 사용하는 메서드
 
+
+wrapper 클래스
+ - 8게의 기본형을 객체로 다뤄야할 때 사용하는 클래스
+ - Integer, Character, Boolean, Byte, Short, Long, Float, Double
+ - 모든 숫자 래퍼 클래스의 부모클래스는 Number 클래스이다.
+-ex6 | 직접 사용해보자.
+

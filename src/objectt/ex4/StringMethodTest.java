@@ -162,9 +162,10 @@ public class StringMethodTest {
         String str1 = i+""; // 가독성이 좋다. 속도가 비교적 느리다.
         String str2 = String.valueOf(i); //속도가 비교적 빠르다. 가독성에 좋지 않다.
         //문자열을 숫자로 변환
-        i = Integer.parseInt("100");
-        i2 = Integer.valueOf("100");
+         i = Integer.parseInt("100");
+         i2 = Integer.valueOf("100");
         Integer integer = Integer.valueOf("100");
+
     }
 
 
