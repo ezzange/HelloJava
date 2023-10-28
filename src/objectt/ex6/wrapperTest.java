@@ -15,5 +15,7 @@ public class wrapperTest {
         System.out.println("integer.SIZE  = " + integer.SIZE+"bits");
         System.out.println("integer.BYTES  = " + integer.BYTES+"bytes");
         System.out.println("integer.TYPE = " + integer.TYPE);
+
+
     }
 }
