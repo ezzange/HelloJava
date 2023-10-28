@@ -18,6 +18,7 @@
                             peek(), pop()
                         - 반환값이 없으면 null 혹은 false 반환
                             empty(), push(), search()
+              ex |  ArrayList 를 직접 작성해보자.
              LinkedList
                 => 객체 주소값이 저장되는 노드는 자신의 앞 주소를 저장하여 연결 리스트라고 한다.
                    중간 데이터의 변경이 빨라 비순차적인 데이터를 저장하기 적합하다.
@@ -65,6 +66,9 @@
                         범위 사이 값 반환 : subSet()
                         기준값 보다 큰 : tailSet()
                         기준값 보다 작은 : headSet()
+             ex | treeSet을 정렬하고 비교해보자.
+             ex | treeSet 클래스의 메서드를 사용해보자.
+
 
     ## map interface
      ## Map
@@ -101,7 +105,7 @@
         변경 불가(read only) 컬렉션 만들기 : unmodifiableXXX()
         싱글톤 컬렉션 만들기 : singletonXXX()
         한 종류의  타입만 저장하는 컬렉션 : checkedXXX()
-
+ ex | Collections 클래스를 직접 작성해보자.
   ## Iterator, ListIterator, Enumeration Interface
   - 컬렉션에 저장된 데이터를 접근하는데 사용하는 인터페이스로 일회용짜리의 읽기 전용이다.
 
@@ -112,9 +116,11 @@
   - 채움 : fill(), setAll(람다식)
   - 정렬 : sort()
   - 이진 탐색 : binarySearch() - 정렬 필수
-- ex |
+- ex | Arrays클래스의 메서드를 직접 써보자
   ## Comparator, Comparable
   객체 정렬애 팔요한 메서드(정렬 기준 제공)를 정의한 인터페이스
+  Comparable : 기본 정렬 기준을 제공해 주는데 주어진 두 객체를 비교한다. (A와 B를 비교한다면 값을 사전 기준으로 A가 크면 1, 같다면 0, B가 크다면 -1)
+  Comparator : 주어진 객체를 자신과 비교
 - ex |
    compare() compareTo()
    - 두 객체의 비교 결과를 반환(사전 기준 왼쪽이 크면 -1 같으면 0 오른쪽이 크면 1)
