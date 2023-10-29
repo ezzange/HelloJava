@@ -1,6 +1,6 @@
 package Generics.ex3;
 
-public class Fruit implements Eatable{
+public class Fruit implements Eatable {
     public String toString(){
         return "Fruit";
     }
@@ -11,4 +11,3 @@ class Cherry extends Fruit{public String toString() {return "PineApple";}}
 class  Rain {public String toString() {return "Rain";}}
 class  Ezzange {public String toString() {return "ezzange";}}
 
-interface Eatable{}
