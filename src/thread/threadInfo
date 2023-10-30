@@ -27,7 +27,7 @@
   쓰레드의 I/O 블락킹
   - 입력(input) / 출력(output) 시 외부장치에 의하여 작업이 중단되고 기다리는 구간
   - 멀티 쓰레드를 사용하는 경우 하나의 쓰레드가 사용자로부터 입력을 기다리는 동안 별도의 쓰레드가 작업을 처리하면서 효율적으로 작업을 처리할 수 있다.
- ex3 |
+ ex3 | 직접 사용해보자.
 
   쓰레드의 우선 순위
   - 작업의 중요도를 따라 쓰레드의 우선순위를 정하여 순차적으로 특정 쓰레드가 더 많은 작업시간을 갖도록 할 수 있지만
@@ -43,5 +43,18 @@
     void interrupt() : 대기상태(WAITING)인 쓰레드를 실행대기 상태(RUNNABLE)로 만든다 (쓰레드의 interrupted 상태를 false를 ture로 반환)
     boolean isInterrupted() : 쓰레드의 interrupted 상태를 반환
     static boolean interrupted() 현재 쓰레드의 interrupted상태를 알려주고, falue로 초기화
-    ex | interrupt(), isInterrupted(), interrupted()를 사용해보자.
-dead-lock 교착 상태를 유발할 수 있는 메서드 : suspend()-일시정지 resume()-일시정지 -> 실행대기 stop() 쓰레드 종료
+    ex4 | interrupt(), isInterrupted(), interrupted()를 사용해보자.
+
+   (dead-lock 교착 상태를 유발할 수 있는 메서드 : suspend()-일시정지 resume()-일시정지 -> 실행대기 stop() 쓰레드 종료 )
+    ex5 | 해당 메서드를 직접 사용해보자.
+
+    join() : 지정된 시간 혹은 기본값(작업이 모두 끝날때까지)동안 쓰레드가 작업을 기다린다.
+    ex6 | 직접 사용해보자.
+
+    yield() : 쓰레드가 배정 받은 작업 시간 중 남은 시간을 다음 쓰레드에 양보하고, 자신은 실행대기한다.
+    ex7 | 직접 사용해보자.
+    wait()
+    notify()
+
+  쓰레드의 동기화
+
