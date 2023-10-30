@@ -1,7 +1,5 @@
 package thread.ex7;
 
-import thread.ex6.Thread1;
-
 public class ThreadTest3 {
     public static void main(String[] args) {
 
